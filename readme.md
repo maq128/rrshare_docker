@@ -18,6 +18,10 @@ docker run -d -p 3001:3001 -v `pwd`/rrdata:/opt/work/store  -v `pwd`/rrconf:/opt
 
 [http://localhost:3001/](http://localhost:3001/)
 
+缺省的解锁密码是 `123456`
+
+如果要用帐号登录，需通过手机端的 `人人影视app` 注册帐号。
+
 ## 关于几个需下载的文件
 
 在构建这个镜像的过程中，本来有 4 个文件是需要在线下载的：
