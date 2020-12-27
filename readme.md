@@ -11,7 +11,7 @@ docker build --tag rrshare_docker .
 ```sh
 mkdir ./rrdata
 mkdir ./rrconf
-docker run -d -p 3001:3001 -v `pwd`/rrdata:/opt/work/store  -v `pwd`/rrconf:/opt/work/conf --name rrshare rrshare_docker
+docker run -d -p 3001:3001 -v `pwd`/rrdata:/opt/work/store  -v `pwd`/rrconf:/opt/work/conf --cpus 1 --name rrshare rrshare_docker
 ```
 
 ## 使用
